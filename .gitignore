@@ -1,6 +1,6 @@
  # Dependencies
  node_modules/
- package-lock.json
+ 
  
  # Runtime data
  tmp/
@@ -27,3 +27,4 @@
  *.njsproj
  *.sln
  *.sw?
+node_modules

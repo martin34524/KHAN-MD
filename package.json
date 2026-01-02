@@ -68,9 +68,5 @@
     "yargs": "^17.6.0",
     "yargs-parser": "^21.1.1",
     "body-parser": "^1.20.2"
-  },
-    "overrides": {
-     "libsignal": "git+https://github.com/whiskeysockets/libsignal-node.git",
-    "whiskeysockets/libsignal-node": "git+https://github.com/whiskeysockets/libsignal-node.git"
   }
 }
