@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@whiskeysockets/baileys": "7.0.0-rc.9",
+    "@yaoii-bails/libsignal-node": "2.0.2",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
@@ -67,5 +68,8 @@
     "yargs": "^17.6.0",
     "yargs-parser": "^21.1.1",
     "body-parser": "^1.20.2"
+  }
+    "overrides": {
+    "libsignal": "@yaoii-bails/libsignal-node"
   }
 }
