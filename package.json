@@ -8,7 +8,11 @@
     "stop": "pm2 stop KHAN-MD",
     "restart": "pm2 restart KHAN-MD"
   },
+   "overrides": {
+    "libsignal": "git+https://github.com/WhiskeySockets/libsignal-node.git"
+  },
   "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.21",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
@@ -38,8 +42,7 @@
     "human-readable": "^0.2.1",
     "jimp": "latest",
     "jsdom": "^22.1.0",
-    "libphonenumber-js": "^1.11.18",
-    "libsignal": "^2.0.1",
+    "libphonenumber-js": "^1.11.18",    
     "megajs": "^1.3.7",
     "moment-timezone": "^0.6.0",
     "mumaker": "^2.0.0",
